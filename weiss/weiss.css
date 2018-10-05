@@ -1,0 +1,82 @@
+	body {
+		background-color: #87CEFA;
+		background-image: url(whiteforest.jpg);
+	}
+	
+	img#first, img#second  { display: none; }
+	@media (min-width: 700px) {
+
+	   img#first { 
+			display: inline;
+			position: absolute;
+			left: 6%;
+			top: 5px;
+			}
+	   img#second { 
+			display: inline;
+			position: absolute;
+			right: 6%;
+			top: 5px;
+			}
+	}
+		
+	#aboutHero {    
+		border-color: white;
+		background-color: #265c9f;
+		box-shadow: 0 0 7px 2px rgba(255,255,255,.7);
+	}
+	
+	#heroIcon {
+		border-color: white;
+		background-color: white;
+	}
+	
+    #heroText {
+		color: white ;
+	}	
+	
+	#topBord, #bottomBord {
+		color: blue;
+		background-color: #FFEDE7;
+	}
+
+	
+	#lyrics {
+		color: #FFEDE7 ;
+		background-color: #265c9f;		
+	}
+	
+	#lyrics h4 { color: #aaa; text-align: left;}
+	
+	
+		
+	li#current {
+		color: white;
+		border: 3px solid white;
+		border-radius: 1em;
+		box-shadow: -3px 3px 5px rgba(255,255,255,.7);
+	}
+	
+
+	nav ul li a#black:hover { 
+	    color: black;
+	}
+	
+	nav ul li a#yellow:hover { 
+	    color: yellow;
+	}
+	
+	nav ul li a#red:hover { 
+	    color: red;
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

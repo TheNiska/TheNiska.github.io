@@ -1,0 +1,298 @@
+@font-face {
+	font-family: 'Raleway';
+	 src: url("../raleway-master/webfonts/raleway_thin-webfont.eot"); 
+	 src:  url("../raleway-master/webfonts/raleway_thin-webfont.eot?#iefix") format("embedded-opentype"),
+		url("../raleway-master/webfonts/raleway_thin-webfont.woff") format("woff"),
+		url("../raleway-master/webfonts/raleway_thin-webfont.ttf") format("truetype"),
+		url("../raleway-master/webfonts/raleway_thin-webfont.svg") format("svg"); 
+
+}
+
+@font-face {
+	font-family: WebSymbol;
+	src: url("../WebSymbols-Regular.otf");
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url("../MontserratAlternates/MontserratAlternates-Medium.otf");
+}
+
+@font-face {
+    font-family: 'montserrat_alternatesmedium';
+    src: url('../monster/montserratalternates-medium-webfont.eot');
+    src: url('../monster/montserratalternates-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../monster/montserratalternates-medium-webfont.woff2') format('woff2'),
+         url('../monster/montserratalternates-medium-webfont.woff') format('woff'),
+         url('../monster/montserratalternates-medium-webfont.ttf') format('truetype'),
+         url('../monster/montserratalternates-medium-webfont.svg#montserrat_alternatesmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background: #1a1a1d;
+	font-size: 1em;
+	margin: 0;
+}
+
+p {
+	line-height: 1.4em;
+}
+
+
+/* start ARTICLE section */
+article {
+	float: right;
+	text-align: left;
+    background: #f7f7f7;
+	padding-bottom: 10px;
+	color: #111;
+	width: 80%;
+	box-sizing: border-box;
+	border-left: thick solid #6f2232;
+	border-radius: 0px 20px 20px 0px;
+	margin: 0;
+}
+
+article>p {
+	font-size: 1.22em;
+	text-align: left;
+	font-family: Baskerville, "Palatino Linotype", Times, serif;
+	margin: 0 3px 0 3px;
+	padding: 0 7px 0 7px;
+	color: #111;
+}
+
+article p:nth-of-type(odd) { background-color: #f7c4c4; }
+
+article p:nth-of-type(2n) { margin-bottom: .7em; }
+
+article .head {
+	background: #6f2232;
+	margin: 0;
+	margin-bottom: 10px;
+	padding: 35px 10px 35px 10px;	
+}
+
+article .head>h1 {
+	font-family: Baskerville, Palatino, sans-serif;
+	font-family: Montserrat;
+	font-family: 'montserrat_alternatesmedium';
+	font-weight: normal;
+	text-shadow: -1px 1px 2px #111;
+	color: #ffffff;
+	font-size: 1.9em;
+}
+
+article>h2 {
+	font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+	font-size: 1.4em;
+	border-top: 2px solid #332626;
+	padding: 8px 7px 8px 7px;
+	margin: 2px 3px 5px 3px;
+	color: #4e4e50;
+	line-height: 1.5em;
+}
+
+article .head+h2 {
+	margin-top: 0;
+	border-top: none;
+}
+/* end article section */
+
+	
+
+
+
+
+
+
+
+
+
+
+footer, header {
+	background: #1a1a1d;
+	margin: 0;
+    color: rgba(255,255,255,.8);
+    font-family: "Open Sans",sans-serif;
+	font-size: 2em;
+	box-shadow: 0 0 6px 2px rgba(2,2,2,.7);
+}
+
+
+
+
+
+
+
+
+header {
+	font-family: "Copperplate Light", "Copperplate Gothic Light", serif;
+	font-weight: normal;
+	text-align: center;
+	border-bottom: 5px solid black;
+	
+}
+
+
+
+.after_clean { clear: both; }
+
+
+#main  { 
+	max-width: 1100px;
+	margin: 20px auto;
+	background-color: #f7f7f7;
+	border: thick solid #6f2232;
+	box-sizing: border-box;
+	padding: 0;
+	box-shadow: 0 0 6px 2px rgba(2,2,2,.7);
+}
+
+
+/* RWBY photos section of header has been started */
+.rwby {
+	background-color: #6f2232;
+	padding: 10px;
+}
+
+.rwby .image_logo { 
+	display: inline-block;
+	background-color: black;
+	width: 13%;
+	max-width: 250px;
+	min-width: 50px;
+	border: 3px solid black;
+	padding: 0;
+	margin: 0;
+	border-radius: 17px;
+}
+
+.rwby .image_logo:hover {
+	background-color: #1a1a1d;
+	border: 3px groove #aa0011;
+	box-shadow: -2px 2px 7px rgba(0,0,0,.7);
+}
+
+.rwby .image_logo img{
+	border-radius: 16px;
+}
+/* RWBY photos section of header has been ended */
+
+
+header .title {
+	background: inherit;
+	font-family: 'Raleway';
+	font-size: 1.4em;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-shadow: -2px 2px 4px #000;
+	letter-spacing: 10px;
+	color: #c3073f;
+	padding: 10px;
+	
+}
+
+/* the beginning of the ASIDE section */
+aside {
+	float: left;
+	margin: 10px 1%;
+	padding: 10px;
+	vertical-align: top;
+	background-color: inherit;
+	width: 18%;
+	color: #c3073f;
+	box-sizing: border-box;
+	overflow: hidden;	
+}
+
+aside h2 {
+	font-size: 1.5em;
+	color: #1a1a1d;
+	color: rgba(10,10,10,.7);
+	font-family: "Copperplate Light", "Copperplate Gothic Light", serif;
+	font-weight: normal;
+	
+	cursor: pointer;
+}
+
+aside h2:hover {
+	color: #FF0033;
+	text-decoration: bottomline;
+}
+
+aside h1 { 
+	font-size: 1.6em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	color: #6f2232;
+	border-bottom: 3px solid #6f2232;
+	margin-bottom: 15px;
+	padding: 10px 0;
+}
+aside ul {
+	list-style-type: none;
+	list-style-position: inside;
+	padding-left: 0.8em;
+	
+}
+aside ul { display: none; }
+aside ul li {
+	font-size: 1.22em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 0.2em 5px 0.2em 30px;
+	background-image: url(images/rose_img.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.dividerP { height: 35px;}
+
+/* footer start */ 
+	footer {
+		font-family: "Courier New", Courier, monospace;
+		font-size: 1.05em;
+		font-weight: normal;
+		background-color: black;
+		padding: 10px 10px 33px 10px;
+		margin-top: 10px;
+		border-top: thin solid black;
+	}
+	
+	footer p { 
+		padding: 5px;
+		margin: 5px;
+	}
+	
+	
+	footer a {
+		padding: 5px;
+		text-decoration: none;
+		color: #f5699f;
+	}
+	
+	footer .links {
+		display: inline-block;
+		margin-left: 6%;
+		color: #e5295f;
+		
+	}
+	
+	footer .links a:hover { 
+		border-bottom: thick solid #a22;
+		color: #bbf;
+	}	
+	
+	footer .info {
+		display: inline-block;
+		float: right;
+		margin-right: 6%;
+		color: #e5295f;
+	}
+/* footer end */ 
+	
+
+
+

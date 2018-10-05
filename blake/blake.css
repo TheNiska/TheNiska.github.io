@@ -1,0 +1,86 @@
+	body {
+		background-color: #003355;
+	    background-image: url(blackor.jpg);
+	}
+	
+   
+   hr { background-color: black;
+       color: black;
+	   border: none;
+       height: 2px;  
+	   }
+	   
+   img#first, img#second  { display: none; }
+   @media (min-width: 700px) {
+	   img#first { 
+			display: inline;
+			position: absolute;
+			left: 6%;
+			top: 5px;
+			}
+	   img#second { 
+			display: inline;
+			position: absolute;
+			right: 6%;
+			top: 5px;
+			}
+   }
+		
+	#aboutHero {
+		border-color: black;
+		background-color: #e5d1ac;
+		box-shadow: 0 0 7px 2px rgba(0,0,0,.7);
+	}
+	
+	#heroIcon {
+		border-color: black;
+		background-color: black;
+	}
+	
+   
+    #heroText {
+		color: black ;
+	}
+	
+	#topBord, #bottomBord {
+		color: white;
+		background-color: black;
+	}
+	
+	#lyrics {
+		color: black;
+		background-color: #e5d1ac;		
+	}
+	
+	#lyrics h4 { color: #aaa; text-align: left;}
+	
+		
+	li#current {
+		color: black;
+		border: 3px solid black;
+		border-radius: 1em;
+		box-shadow: -3px 3px 5px rgba(0,0,0,.7);
+	}
+	
+	nav ul li a#white:hover { 
+	    color: white;
+	}
+	
+	nav ul li a#yellow:hover { 
+	    color: yellow;
+	}
+	
+	nav ul li a#red:hover { 
+	    color: red;
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

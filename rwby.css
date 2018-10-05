@@ -1,0 +1,265 @@
+	
+	
+	body {
+		margin: 0px;
+		padding: 0px;
+		font-size: 90%;
+		background-repeat: repeat-y;
+		background-origin: border-box;
+		background-clip: border-box;
+		background-attachment: fixed;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;	
+	}
+	
+	@media (min-width: 780px) {
+		body {
+			font-size: 100%;
+		}
+	}
+	
+	@font-face {
+		font-family: "Diavlo Medium";
+		src: url(diavlo2.37/Diavlo_MEDIUM_II_37.otf);
+	}
+	
+	#aboutHero {
+		margin: 20px auto;
+		border: 3px solid;
+		border-radius: 0px 20px 20px 0px;
+		font-family: 'Didact Gothic', Baskerville, "Palatino Linotype", Times, serif;
+		font-size: 1.2em;
+		color: red;
+		max-width: 1050px;
+		
+	}
+	#aboutHero p {
+		padding: 5px;
+		margin: 0;
+	}
+	
+	#heroIcon {
+		float: left;
+		border: 3px solid red ;
+		display: inline-block;	
+		width: 17%;
+		box-sizing: border-box;
+		min-width: 100px;
+		margin: -3px 10px -3px -3px;
+	}
+	
+	#heroText {
+		font-family: 'Didact Gothic', Baskerville, "Palatino Linotype", Times, serif;
+		box-sizing: border-box;
+		padding: 15px;
+	}
+	
+	#heroText::first-letter {
+		font-size: 1.3em;
+		font-weight: bold;
+		font-family: Scary;
+	}
+	
+	#clearer {
+		clear: both;
+	}
+	
+	
+	#topBord {
+		position: relative;
+		font-family: "Diavlo Medium";
+		font-weight: bold;
+		letter-spacing: 3px;
+		border: 3px solid silver;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		border-bottom: none;
+		border-radius: 160px 160px 0 0;
+		margin: 0 auto;
+		max-width: 1050px;
+		text-align: center;
+		font-size: 1.9em;
+		margin-top: 0px;
+	}
+	
+	#bottomBord {
+		font-family: "Diavlo Medium";
+		font-weight: bold;
+		letter-spacing: 3px;
+		border: 3px solid silver;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		border-top: none;
+		border-radius: 0px 0px 160px 160px;
+		margin: 0 auto;
+		max-width: 1050px;
+		text-align: center;
+		font-size: 1.9em;
+	}
+	
+	@media (max-width: 500px) {
+		#topBord, #bottomBord {
+			font-size: 1.7em;
+		}
+	}
+	
+
+	
+	#lyrics {
+		font-family: 'Didact Gothic', Baskerville, "Palatino Linotype", Times, serif;
+		margin: 0 auto;
+		max-width: 800px;
+		padding: 10px;
+		font-size: 1.2em;
+		font-weight: normal;
+		text-align: center;
+		border-left: 3px solid silver;
+		border-right: 3px solid silver;
+
+	}
+	
+	@media (min-width: 830px) {
+		
+		#lyrics  {
+			border: none;
+		}
+	}
+
+	
+	nav {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 1.3em;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		margin: 0px;
+		background-color: #243154;
+	}
+	
+	nav img { display: none; }
+	@media (min-width: 460px) {
+		nav img {
+			display: inline;
+			float: right;
+			margin: 5px;
+			margin-right: 15px;
+		}
+	}
+	li#current {
+		font-size: 20px;
+		text-shadow: -1px 1px 4px rgba(0,0,0,.7);
+	}
+	
+	ul  {
+		list-style-type: none;
+		margin-top: 0px;
+		padding: 10px;
+
+	}
+	
+	nav ul li {
+		display: inline-block;
+		padding: 10px;
+		margin: 2px;
+	}
+		
+	nav ul li a {
+		color: #bbb;
+		text-decoration: none;
+
+	}
+	
+	footer {
+		font-family: Arial, sans-serif;
+		background-color: #243154;
+		color: white;
+		padding: 10px 10px 25px 10px;
+		margin-top: 10px;
+	}
+	
+	
+	footer a {
+		padding: 5px;
+		text-decoration: none;
+		color: white;
+	}
+	
+	footer .links {
+		display: block;
+		margin: 0 2%;
+		text-align: center;
+		border-bottom: 1px solid #111;
+	}
+		
+	footer .info {
+		display: block;
+		margin: 0 2%;
+		color: #BDBDBD;
+		text-align: center;
+	}
+	
+	@media (min-width: 700px) {
+		
+		footer .links {
+			display: inline-block;
+			margin-left: 8%;
+			border-bottom: none;
+		}
+		
+		footer .info {
+			display: inline-block;
+			float: right;
+			margin-right: 8%;
+			color: #BDBDBD;
+		}		
+	}
+
+	
+		.links a:hover { 
+		border-bottom: thick solid #115;
+		color: #bbf;
+	}
+	
+	/* scrollbar section start */
+	
+	::-webkit-scrollbar {
+		width: 12px;
+	}
+	
+	::-webkit-scrollbar-thumb {
+		border-width: 1px 1px 1px 2px;
+		border-color: #777;
+		border-radius: 5px;
+		background-color: #c3073f;
+	}	
+
+	::-webkit-scrollbar-thumb:hover {
+		border-width: 1px 1px 1px 2px;
+		border-color: #555;
+		background-color: #a22;
+	}
+	
+	::-webkit-scrollbar-track {
+		border-width: 0;
+		background-color: black;
+	}
+	
+	::-webkit-scrollbar-track:hover {
+		border-left: solid 1px #1a1a1d;
+		background-color: #111;
+	}
+	
+	/* scrollbar section end */	
+	
+	
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
