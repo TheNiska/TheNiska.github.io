@@ -3,6 +3,12 @@
 	    background-image: url("Forest-fire.jpg");
 	}
 	
+	.song {
+		background-color: #5b3321;
+		box-shadow: 0 0 7px 2px rgba(255,255,0,.7);
+		border-color: yellow;
+	}
+	
    
    hr { background-color: black;
        color: black;

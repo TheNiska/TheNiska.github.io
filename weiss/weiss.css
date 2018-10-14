@@ -3,6 +3,12 @@
 		background-image: url(whiteforest.jpg);
 	}
 	
+	.song {
+		background-color: #265c9f;
+		box-shadow: 0 0 7px 2px rgba(255,255,255,.7);
+		border-color: white;
+	}
+	
 	img#first, img#second  { display: none; }
 	@media (min-width: 700px) {
 
