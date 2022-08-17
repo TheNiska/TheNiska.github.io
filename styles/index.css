@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px) {
+  .head-active {
+    background-color: var(--nav-text-color);
+    color: var(--nav-text-color);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--nav-bg-color);
+    z-index: 5;
+  }
+
+  .head-active .toggle-button span {
+    background-color: var(--nav-bg-color);
+  }
+
+  .head-active a {
+    color: var(--nav-bg-color);
+  }
+
+  .head-active nav a::after {
+    background-color: var(--nav-bg-color);
+  }
+}

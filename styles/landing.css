@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+#head {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/bg.jpg") center/cover no-repeat;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+footer {
+  clear: both;
+  background-color: #000;
+  color: #fff;
+  padding: 1.2rem;
+  text-align: center;
+}
+header {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.05)
+  );
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  padding: 1.2rem;
+}
+
+.bottom-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 12px;
+  width: 100%;
+  background-color: #000;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+  header ul {
+    margin-top: 1.3rem;
+    margin-bottom: 0.3rem;
+  }
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  text-transform: uppercase;
+  list-style-type: none;
+  z-index: 3;
+}
+header ul li {
+  padding: 0 1.2rem;
+}
+header ul li:last-child {
+  padding-right: 0;
+}
+header ul li:first-child {
+  padding-left: 0;
+}
+header ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+header ul li a:hover {
+  color: #bbb;
+}
+.logo {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+#head h1,
+#head h2 {
+  text-align: center;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  color: #ccccff;
+  padding: 1rem;
+}
+#head h1 {
+  font-size: calc(45px + 22 * (120vw - 440px) / 1500);
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+#head h2 {
+  font-family: "Open Sans", sans-serif;
+  padding-top: 0;
+  margin-top: 0.4rem;
+  font-size: 1.62rem;
+  font-size: calc(17px + 13 * (100vw - 440px) / 1900);
+  color: #ffe6cc;
+  letter-spacing: 0.2rem;
+}
+
+.button-container {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 510px;
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  width: 0%;
+  height: 0%;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.7);
+  transition: 0.8s;
+  z-index: -1;
+  top: -5px;
+  border-radius: 0 0 50% 50%;
+}
+
+.btn:hover::before {
+  height: 170%;
+  width: 120%;
+}
+.btn:hover {
+  color: #443;
+  transition: 0.8s;
+}
+
+section .wrapper {
+  padding: 1.2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section .side-info {
+  float: right;
+  width: 29%;
+  background-color: #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccccff;
+  margin-left: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.side-info span {
+  font-weight: bold;
+}
+
+.side-info p {
+  margin: 2rem 0;
+}
+.side-info p:first-of-type {
+  margin-top: 2rem;
+}
+
+section h1 {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 2.1rem;
+  text-align: center;
+  margin: 2rem;
+}
+
+section h2 {
+  text-transform: capitalize;
+  color: #444;
+  font-size: 1.9rem;
+  text-align: left;
+  margin: 1.5rem 0;
+  font-weight: 500;
+}
+
+section p {
+  font-size: 1.1rem;
+  color: #444;
+}
