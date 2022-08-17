@@ -222,10 +222,56 @@ article .text-wrapper:first-of-type p:first-of-type::first-letter {
   max-width: 700px;
 }
 
+.img-content2 {
+  background-image: url("../images/lim.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.2rem 0;
+}
+
+.img-content2 p {
+  font-size: 1.7rem;
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--img-text-color);
+  text-align: center;
+  padding: 1.2rem 1.5rem;
+  max-width: 700px;
+}
+
+.img-content3 {
+  background-image: url("../images/eating.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.2rem 0;
+}
+
+.img-content3 p {
+  font-size: 1.7rem;
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--img-text-color);
+  text-align: center;
+  padding: 1.2rem 1.5rem;
+  max-width: 700px;
+}
+
 article .annotation {
   font-weight: bold;
   margin-bottom: 1.7rem;
   font-size: 1.3rem;
+}
+
+article .annotation i {
+  font-weight: normal;
 }
 
 @media screen and (max-width: 600px) {

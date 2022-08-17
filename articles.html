@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Статьи </title>
+    <link rel="shortcut icon" href="images/mylogo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/styles.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper">
+        <div class="container">
+          <div class="logo">
+            <img
+              src="images/mylogo.png"
+              width="25%"
+              alt="logo"
+            />
+          </div>
+          <div class="toggle-button">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="articles.html">Статьи</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+	<article>
+  <div class="text-wrapper">
+    <h1>Название</h1>
+    <div class="annotation">
+      тут должна быть аннотация
+    </div>
+    <p>Упс, тут пока ничего нет</p>
+ </div>
+</article>
+	</section>
+    <footer>
+      <div class="wrapper">
+        <div class="links">
+          <a href="index.html">Домашнаяя страница</a><br />
+          <a href="#">В начало этой страницы</a><br />
+          <a href="#">Правообладателям</a>
+        </div>
+        <div class="info">
+          <p>Copyright 2021 &copy; Bondarev Denis</p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript">
+      const toggleButton = document.getElementsByClassName("toggle-button")[0];
+      const navbarLinks = document.getElementsByClassName("nav-links")[0];
+      const head = document.getElementsByClassName("header")[0];
+
+      toggleButton.addEventListener("click", () => {
+        navbarLinks.classList.toggle("active");
+        toggleButton.classList.toggle("toggle-active");
+        head.classList.toggle("head-active");
+      });
+
+      if (window.innerWidth > 600) {
+        head.classList.toggle("head-active");
+      }
+    </script>
+  </body>
+</html>
