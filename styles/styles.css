@@ -201,8 +201,8 @@ article .text-wrapper:first-of-type p:first-of-type::first-letter {
   color: var(--cap-letter-color);
 }
 
-.img-content {
-  background-image: url("../images/girl.jpg");
+.img-content1 {
+  background-image: url("../images/yarn_just.jpeg");
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -213,7 +213,7 @@ article .text-wrapper:first-of-type p:first-of-type::first-letter {
   margin: 1.2rem 0;
 }
 
-.img-content p {
+.img-content1 p {
   font-size: 1.7rem;
   background: rgba(0, 0, 0, 0.3);
   color: var(--img-text-color);
