@@ -225,3 +225,14 @@ section p {
   font-size: 1.1rem;
   color: #444;
 }
+
+@media screen and (max-width: 860px) {
+  section .side-info {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+}
