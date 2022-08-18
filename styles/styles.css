@@ -273,7 +273,36 @@ article .annotation {
 article .annotation i {
   font-weight: normal;
 }
+  /* scrollbar section start */
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-width: 1px 1px 1px 2px;
+    border-color: #777;
+    border-radius: 5px;
+    background-color: #c3073f;
+  } 
 
+  ::-webkit-scrollbar-thumb:hover {
+    border-width: 1px 1px 1px 2px;
+    border-color: #555;
+    background-color: #a22;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border-width: 0;
+    background-color: black;
+  }
+  
+  ::-webkit-scrollbar-track:hover {
+    border-left: solid 1px #1a1a1d;
+    background-color: #111;
+  }
+  
+  /* scrollbar section end */ 
 @media screen and (max-width: 600px) {
   .toggle-button {
     display: block;
