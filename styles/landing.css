@@ -225,6 +225,10 @@ section p {
   font-size: 1.1rem;
   color: #444;
 }
+
+#me_info > p {
+  text-indent: 0.8rem;
+}
   /* scrollbar section start */
   
   ::-webkit-scrollbar {
